@@ -9,5 +9,6 @@
  4. subscribe
  5. navigate
  6. routing
+ 7. how to catch values from url
  
 ```

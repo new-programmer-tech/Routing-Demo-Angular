@@ -1,0 +1,5 @@
+<h1>department works!</h1>
+
+<div *ngFor="let dep of departments">
+  <p (click)="onSelect(dep)">{{ dep.id }}-{{ dep.name }}</p>
+</div>

@@ -9,6 +9,16 @@
  4. subscribe
  5. navigate
  6. routing
- 7. how to catch values from url
- 
+
 ```
+
+ > ## 7. how to catch values from url :-
+ 
+ ```
+  this.activeRoute.paramMap.subscribe((params: ParamMap) => {
+      let id = Number(params.get('id'));
+      this.depId = id;
+      console.log(typeof (id));
+    }
+    )
+  ```
